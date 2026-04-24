@@ -1,0 +1,276 @@
+/*import font*/
+font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #18a2c9, #72c3bd);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+/*Desktop First*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /*border: 1px solid rgb(255, 255, 255);*/
+}
+
+.container--flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    padding: 10px 0;
+    /*border: 1px solid rgb(255, 255, 255);
+    /*height: 80px;*/
+}
+
+.header__logo {
+    width: 100px;
+}
+
+.header__title {
+    font-family: Montserrat;
+    color: #ded27c;
+}
+
+.header__text {
+    font-family: Montserrat;
+    color: white;
+}
+
+.contact-form{
+    /*border: 1px solid rgb(0, 0, 0);*/
+    padding: 20px 0;
+
+}
+
+.contact-form__linha {
+    /*border: 1px solid rgb(196, 1, 1);*/
+    display: flex;
+}
+
+
+.contact-form__label{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.contact-form__input{
+    color: #18a2c9;
+    border: none;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.contact-form__textarea{
+    color: #18a2c9;
+    border: none;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.contact-form__col-a {
+    width: 10%;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 11px;
+}
+
+.contact-form__col-b {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.contact-form__col-c {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+
+}
+
+
+/*NAME INPUTS*/
+.contact-form__input--metade{
+    width: 49%;
+    height: 35px;
+    border-radius: 3px;
+}
+
+/*EMAIL INPUT*/
+.contact-form__input--mail{
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+}
+
+/*TELEFONE INPUT*/
+.contact-form__input--terco{
+    width: 32%;
+    height: 35px;
+    border-radius: 3px;
+}
+
+.contact-form__input--quarto{
+    width: 22%;
+    height: 35px;
+    border-radius: 3px;
+}
+
+/*anotacoes INPUT*/
+.contact-form__input--largoalto {
+  width: 100%;
+  height: 170px;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+/*botoes cadastrar e limpar*/
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+}
+
+.contact-form__button--metade {
+   background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 450px;   
+    height: 55px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-form__button--metade:hover {
+    background-color: #72c3bd;
+    color: #ffffff;
+}
+
+
+.contact-form__input:focus{
+    background-color: #72c3bd;
+    color: white;
+    border: 1px solid white;
+}
+
+/* Breakpoints - Tablets */
+@media screen and (max-width: 992px) {
+    body{
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .container {
+        max-width: 750px;
+    }
+
+    .header__logo {
+        width: 140px;
+    }
+
+    .header__text {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .contact-form__label {
+        font-size: 13px;
+    }
+
+    .contact-form__col-c {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .contact-form__input,
+    .contact-form__textarea {
+        font-size: 14px;
+    }
+}
+
+/* Breakpoints - Smartphones */
+@media screen and (max-width: 767px) {
+    body{
+        height: 100%;
+    }
+    
+    .contact-form__linha {
+        flex-direction: column;
+    }
+
+    .contact-form__col-a,
+    .contact-form__col-b {
+        width: 100%;
+    }
+
+    .button-container{
+    width: 60%;
+    height: 60%;
+    }
+
+    .contact-form__col-c {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .contact-form__input--metade,
+    .contact-form__input--quarto,
+    .contact-form__input--terco {
+        width: 100%;
+    }
+
+    .contact-form__col-b {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .contact-form__col-a {
+        display: none;
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
+
+    
+
+    .header__text {
+        font-size: 16px;
+    }
+    
+}

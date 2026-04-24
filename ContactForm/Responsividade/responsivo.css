@@ -1,0 +1,48 @@
+*{
+    /* reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Desktop */
+/*
+body{
+    background-color: black;
+}
+*/
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+img{
+    width: 200px;
+}
+
+/* Breakpoints */
+
+/* Tablet < 992px (768 - 991px)*/
+@media screen and (max-width: 991px) {
+    h1{
+        background-color: black;
+        color: white;
+    }
+
+    img{
+        display: none;
+    }
+}
+
+
+/* Mobile < 768px (0 - 767px)*/
+@media screen and (max-width: 767px) {
+    h1{
+        background-color: black;
+        color: white;
+    }
+
+    img{
+        display: flex;
+    }
+}

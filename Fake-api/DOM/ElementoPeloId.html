@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pegar Elemento Pelo Id</title>
+</head>
+<body>
+        <input type="text" id="nome">
+        <input type="text" id="sobrenome">
+        <button onclick="juntaNome();">Nome Sobrenome</button>
+
+    <script>
+        function juntaNome(){
+            const nome = window.document.getElementById("nome"); 
+            let sobrenome = document.getElementById("sobrenome").value; 
+            
+            console.log(nome);
+            console.log(sobrenome);
+            console.log(nome.value);
+            console.log(nome.id);
+            nome.value = "Milanny";
+        }
+    </script>
+</body>
+</html> 

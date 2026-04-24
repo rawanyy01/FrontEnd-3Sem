@@ -1,0 +1,94 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contatos": [
+    {
+      "nome": "Eduardo",
+      "sobrenome": "davis",
+      "email": "eduardo@example.com",
+      "id": "5U6IrlNwEoY"
+    },
+    {
+      "name": "davi",
+      "sobrenome": "brooklin",
+      "email": "davi.brooklin@example.com",
+      "id": "bPbYdHkIdxc"
+    },
+    {
+      "name": "brooklin",
+      "sobrenome": "pornic",
+      "email": "brooklin.pornic@example.com",
+      "id": "jE-Zvr5aKiQ"
+    },
+    {
+      "name": "davis",
+      "sobrenome": "splaine",
+      "email": "davis.splaine@example.com",
+      "id": "za-ASTgcED8"
+    },
+    {
+      "name": "lepide",
+      "sobrenome": "lopa",
+      "email": "lepide.lopa@example.com",
+      "id": "1WNrWhhwO-8"
+    }
+  ],
+  "produtos": [
+    {
+      "nome": "lapada seca",
+      "quantidade": "5",
+      "preco": 19.99,
+      "id": "3RP3nGY2dq4"
+    },
+    {
+      "nome": "borracha",
+      "quantidade": "7",
+      "preco": 11.99,
+      "id": "PaSlpzFmbUI"
+    },
+    {
+      "nome": "arma do roblox",
+      "quantidade": "9",
+      "preco": 199.99,
+      "id": "msQp92k3jnU"
+    },
+    {
+      "nome": "camisa no diminutivo",
+      "quantidade": "17",
+      "preco": 13.99,
+      "id": "NcSBE6OzCSo"
+    },
+    {
+      "nome": "davi inflavel",
+      "quantidade": "2",
+      "preco": 993.99,
+      "id": "jxII0TvAtyI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

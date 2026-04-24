@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container--flex-column">
+            <img class="header__logo" src="./imagem/logotipo.svg" alt="Logotipo">
+            <h1 class="header__title">Contact Form</h1>
+            <p class="header__text">Insira seus dados abaixo e clique em cadastrar!</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form class="contact-form" action="">
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="nome">Nome</label>
+                    </div>
+                    <div class="contact-form__col-b">
+
+                        <input class="contact-form__input contact-form__input--metade" name="nome" id="nome"
+                            placeholder="Nome" type="text">
+
+                        <input class="contact-form__input contact-form__input--metade" name="sobrenome" id="sobrenome"
+                            placeholder="Sobrenome" type="text">
+
+                    </div>
+                </div>
+
+
+                <!--EMAIL INPUT-->
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="email">Email</label>
+                    </div>
+                    <div class="contact-form__col-b">
+                        <input class="contact-form__input contact-form__input--mail" name="email" id="email"
+                            placeholder="ex: seuemail@dominio.com" type="email">
+                    </div>
+                </div>
+
+                <!--telefone INPUT-->
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="telefone">Telefone</label>
+                    </div>
+                    <div class="contact-form__col-b">
+
+                        <input class="contact-form__input contact-form__input--terco" name="+55" id="telInfo"
+                            placeholder="+55" type="number">
+
+                        <input class="contact-form__input contact-form__input--terco" name="DDD" id="DDD"
+                            placeholder="DDD" type="number">
+
+                        <input class="contact-form__input contact-form__input--terco" name="telefone" id="telefone"
+                            placeholder="ex: 99999-9999" type="number">
+
+                    </div>
+                </div>
+
+                <!--endereco INPUT-->
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="endereco">Endereço</label>
+                    </div>
+                    <div class="contact-form__col-b">
+
+                        <input class="contact-form__input contact-form__input--quarto" name="cep" id="cep"
+                            placeholder="CEP" type="number"  onblur="buscarEndereco(this.value)">
+
+                        <input class="contact-form__input contact-form__input--metade" name="Rua la de casa" id="rua"
+                            placeholder="Rua la de casa" type="text">
+
+                        <input class="contact-form__input contact-form__input--quarto" name="numero" id="numero"
+                            placeholder="Número" type="number">
+
+                    </div>
+                </div>
+
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+
+                    </div>
+                    <div class="contact-form__col-b">
+
+                        <input class="contact-form__input contact-form__input--terco" name="Apartamento" id="apto"
+                            placeholder="Apto. ou bloco ex: 12" type="text">
+
+                        <input class="contact-form__input contact-form__input--terco" name="Bairro" id="bairro"
+                            placeholder="Bairro" type="text">
+
+                        <input class="contact-form__input contact-form__input--terco" name="Cidade" id="cidade"
+                            placeholder="Cidade" type="text">
+
+                    </div>
+                </div>
+
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+
+                    </div>
+                    <div class="contact-form__col-b">
+
+                        <input class="contact-form__input contact-form__input--terco" name="Estado" id="estado"
+                            placeholder="Estado" type="text">
+
+
+                    </div>
+                </div>
+
+                <!--anotacoes INPUT-->
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="anotacoes">Anotações</label>
+                    </div>
+                    <div class="contact-form__col-b">
+
+                        <textarea class="contact-form__textarea contact-form__input--largoalto" name="Anotacoes"
+                            id="anotacoes" placeholder="Suas anotações aqui"></textarea>
+
+
+                    </div>
+                </div>
+
+
+                <!--botoes cadastrar e limpar-->
+                <div class="contact-form__linha">
+                    <div class="contact-form__col-a">
+                        <label class="contact-form__label" for="cadastrar"></label>
+                    </div>
+                    <div class="contact-form__col-c">
+
+                        <button class="button-container contact-form__button--metade" name="cadastrar" id="cadastrar"
+                            type="button" onclick="validarFormulario();">
+                            Cadastrar
+                        </button>
+
+
+                        <button class="button-container contact-form__button--metade" name="limpar" id="limpar"
+                            type="reset">
+                            Limpar
+                        </button>
+
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </main>
+
+    <!--colocar js antes de fechar o body-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Rawany",
+      "idade": "17"
+    },
+    {
+      "Nome": "Rawany",
+      "Idade": "18",
+      "id": "mtn27tha0Rg"
+    },
+    {
+      "Nome": "Fidalgo",
+      "Idade": "13",
+      "id": "g2GFXmoTuWY"
+    },
+    {
+      "Nome": "Milena",
+      "Idade": "76",
+      "id": "XUTh9_4nQLQ"
+    },
+    {
+      "Nome": "Milena",
+      "Idade": "76",
+      "id": "nctlXdZVdNw"
+    },
+    {
+      "Nome": "Davi",
+      "Idade": "10",
+      "id": "TryErrAIaos"
+    }
+  ],
+  "imc": [
+    {
+      "nome": "anne",
+      "altura": 1.65,
+      "peso": 51,
+      "IMC": 18.73278236914601,
+      "textoSituaco": "Saudavel",
+      "id": "95P0tp7WqBE"
+    },
+    {
+      "nome": "raw",
+      "altura": 1.69,
+      "peso": 50,
+      "IMC": 17.506389832288786,
+      "textoSituaco": "Magreza leve",
+      "id": "x7HTlDdBqbE"
+    },
+    {
+      "nome": "milena",
+      "altura": 1.73,
+      "peso": 60,
+      "IMC": 20.04744562130375,
+      "textoSituaco": "Saudavel",
+      "id": "RHrgH8AW9T4"
+    },
+    {
+      "nome": "fidargo",
+      "altura": 1.8,
+      "peso": 67,
+      "IMC": 20.679012345679013,
+      "textoSituaco": "Saudavel",
+      "id": "0UVbMuWnZA4"
+    },
+    {
+      "nome": "Rawany",
+      "altura": 1.7,
+      "peso": 50,
+      "IMC": 17.301038062283737,
+      "textoSituaco": "Magreza leve",
+      "id": "CPmDSjHWR1A"
+    },
+    {
+      "nome": "fidargo",
+      "altura": 1.74,
+      "peso": 60,
+      "IMC": 19.817677368212443,
+      "textoSituaco": "Saudavel",
+      "id": "EckE6MgmwQY"
+    },
+    {
+      "nome": "fidargo",
+      "altura": 1.74,
+      "peso": 60,
+      "IMC": 19.817677368212443,
+      "textoSituaco": "Saudavel",
+      "id": "NTz61qavmQ4"
+    },
+    {
+      "nome": "rafa",
+      "altura": 1.67,
+      "peso": 60,
+      "IMC": 21.513858510523864,
+      "textoSituaco": "Saudavel",
+      "id": "MNlTsYEgjoc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
