@@ -1,0 +1,19 @@
+.card-perfil{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid rgb(213, 173, 245);
+    background-color: rgb(213, 173, 245);
+}
+
+.card_perfil__imagem{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+    
+}
