@@ -1,0 +1,21 @@
+{
+  "Genero": [
+    {
+      "idGenero": "97455c7c-3e0b-452e-9b9c-f8d30fcceef2",
+      "nome": "terror",
+      "id": "TDeNm0-hsrg"
+    },
+    {
+      "idGenero": "83d2b72a-2788-4c29-93dc-f8e8a123008c",
+      "nome": "romance",
+      "id": "SxH8kIHbGb0"
+    },
+    {
+      "idGenero": "66ce9385-027e-4d35-9ca9-001b82e4a134",
+      "nome": "Terror",
+      "id": "OdUqgHmtPEY"
+    }   
+  
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
