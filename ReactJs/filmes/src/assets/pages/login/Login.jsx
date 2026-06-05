@@ -8,7 +8,7 @@ const Login = () => {
         <>
             <Header />
             <h1>Login</h1>
-            <Link to="/generos">Gêneros</Link>
+            
         </>
     )
 }

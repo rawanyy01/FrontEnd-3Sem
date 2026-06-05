@@ -1,21 +1,25 @@
 {
   "Genero": [
     {
-      "idGenero": "97455c7c-3e0b-452e-9b9c-f8d30fcceef2",
-      "nome": "terror",
-      "id": "TDeNm0-hsrg"
+      "idGenero": "61ce6086-249a-4dc0-b61e-e098ccce4fb9",
+      "nome": "comedia",
+      "id": "fP8ZnZmx-ok"
     },
     {
-      "idGenero": "83d2b72a-2788-4c29-93dc-f8e8a123008c",
+      "idGenero": "946c699a-a79b-410e-b9df-e2a50af604c7",
       "nome": "romance",
-      "id": "SxH8kIHbGb0"
+      "id": "qxX8GyHfWwY"
     },
     {
-      "idGenero": "66ce9385-027e-4d35-9ca9-001b82e4a134",
+      "idGenero": "0df50820-1221-40b7-9689-bccf63470720",
+      "nome": "suspense",
+      "id": "qbtHWxIU3os"
+    },
+    {
+      "idGenero": "12471d86-f5ee-4268-8bd2-00b0c25dd13b",
       "nome": "Terror",
-      "id": "OdUqgHmtPEY"
-    }   
-  
+      "id": "KvSxJkMaY1g"
+    }
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }
