@@ -5,11 +5,14 @@ import App from './App.jsx'
 import UsuarioProvider from './context/UsuarioProvider.jsx'
 import { ProdutoContext } from './context/ProdutoContext.jsx'
 import ProdutoProvider from './context/ProdutoProvider.jsx'
+import CadastroProduto from './components/cadastroproduto/CadastroProduto.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ProdutoProvider>
-      <App />
-    </ProdutoProvider>
+    <UsuarioProvider>
+      <ProdutoProvider>
+        <App />
+      </ProdutoProvider>
+    </UsuarioProvider>
   </StrictMode>,
 )
